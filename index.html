@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Web Design</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#">Web<span>Craft</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#features">Features</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">RESPONSIVE WEB DESIGN</p>
+        <h1>A website that works on every screen.</h1>
+        <p class="intro">A simple demonstration of a flexible layout built with HTML and CSS, designed to adapt to desktops, tablets, and smartphones.</p>
+        <a class="button" href="#features">Explore Features</a>
+      </div>
+      <div class="hero-card" aria-label="Responsive design illustration">
+        <div class="screen screen-large"><div class="screen-bar"></div><div class="screen-line"></div><div class="screen-line short"></div><div class="screen-blocks"><i></i><i></i><i></i></div></div>
+        <div class="screen screen-small"><div class="screen-bar"></div><div class="screen-line"></div><div class="screen-line short"></div></div>
+      </div>
+    </section>
+
+    <section class="features" id="features">
+      <div class="section-heading">
+        <p class="eyebrow">KEY BENEFITS</p>
+        <h2>Designed for every device</h2>
+        <p>The layout uses flexible sizing and CSS media queries to keep content clear and accessible.</p>
+      </div>
+      <div class="feature-grid">
+        <article class="feature">
+          <div class="feature-icon">01</div>
+          <h3>Flexible Layout</h3>
+          <p>Content adjusts naturally to different viewport widths without unnecessary horizontal scrolling.</p>
+        </article>
+        <article class="feature">
+          <div class="feature-icon">02</div>
+          <h3>Readable Content</h3>
+          <p>Clear typography, balanced spacing, and a consistent visual hierarchy support usability.</p>
+        </article>
+        <article class="feature">
+          <div class="feature-icon">03</div>
+          <h3>Responsive Styling</h3>
+          <p>Media queries adapt the navigation and content layout for smaller screens.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div>
+        <p class="eyebrow">ABOUT THIS PROJECT</p>
+        <h2>Learning HTML and CSS through practice</h2>
+      </div>
+      <p>This sample project demonstrates semantic HTML, reusable CSS classes, flexible grids, and responsive breakpoints. Test it by opening the page on a phone and changing the browser width.</p>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2>Thanks for visiting!</h2>
+      <p>This page is a frontend demonstration. No form data is collected.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 WebCraft · Responsive Web Design Internship Project</p>
+  </footer>
+</body>
+</html>
